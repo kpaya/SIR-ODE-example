@@ -30,7 +30,7 @@ library(deSolve)
 init <- c(S = 1-1e-1, I = 1e-1, R = 0.1)
 
 # beta: infection parameter; gamma: recovery parameter ----
-parameters <- c(beta = 1.316, gamma = 0.1)
+parameters <- c(beta = 1.316, gamma = 0.01)
 
 # time frame ----
 times <- seq(0, 100, by = 0.5)
